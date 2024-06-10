@@ -25,7 +25,7 @@ executable haskell-app
     main-is:          Main.hs
 
     build-depends:    base ^>=4.19.0.0,
-
+                      HUnit >= 1.6 
 
     hs-source-dirs:   app
 
