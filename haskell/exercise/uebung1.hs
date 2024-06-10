@@ -53,13 +53,6 @@ applyNtimes :: (a -> a) -> Int -> a -> a
 applyNtimes f n x 
   | n <= 0    = x -- base case
   | otherwise = applyNtimes f (n - 1) (f x) -- recursive case
-
-
--- Test
-exponentTest :: Int -> Int -> Int -- receives two integers n & x
-exponentTest n x
-  | n <= 0    = 1 -- base case for exponentiation
-  | otherwise = applyNtimes (* x) (n - 1) x
   
 {-
 Aufgabe 1.2 - Lambda Ausdrücke

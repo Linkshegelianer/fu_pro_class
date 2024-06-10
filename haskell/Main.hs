@@ -1,4 +1,2 @@
-module Main where
-
-main :: IO ()
-main = putStrLn "Hello, Haskell!"
+import Distribution.Simple
+main = defaultMain

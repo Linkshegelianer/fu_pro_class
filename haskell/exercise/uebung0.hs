@@ -1,4 +1,4 @@
-module Main where
+module Uebung0 where
 
 {-
 ghci uebung0.hs
